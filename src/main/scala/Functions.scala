@@ -36,5 +36,5 @@ object Functions extends App {
   def pure(a:Int, b:Double):Double ={
     a-b
   }
-  println(pure(3,1))
+  println(pure(3,1.0800186))
 }
