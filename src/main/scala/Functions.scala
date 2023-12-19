@@ -13,7 +13,7 @@ object Functions extends App {
   def sub(a:Int):Int={
     val b:Int=6
     val substraction = num1-a-b
-    substraction
+       substraction
   }
   println(s"output of closure function is: ${sub(1)}")
 
@@ -28,7 +28,7 @@ object Functions extends App {
 
     nestedfun(8)
   }
-  println(s"output is ${sub1(10,3)}")
+  println(s"output of nestedfunction is ${sub1(10,3)}")
 
 
   //pure function
@@ -36,5 +36,5 @@ object Functions extends App {
   def pure(a:Int, b:Double):Double ={
     a-b
   }
-  println(pure(3,1.0800186))
+  println(s"output of pure function is ${pure(3,1.0800186)}")
 }
